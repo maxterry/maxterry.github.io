@@ -1,5 +1,5 @@
 body {
-	margin: 0px; background: #ddd;
+	margin: 0px; background: #EBF1FF;
 	font-family: verdana; font-size: small; color: #4F3030;
 }
 
@@ -104,8 +104,8 @@ strong {
 }
 
 #skills, #experience {
-	padding-bottom: 20px; background: #ffe;
-	border-bottom: solid #FCFFC6 4px;
+	margin-bottom: 20px; background: #ffe;
+	border-bottom: solid #ADBDDE 4px;
 }
 
 @media (min-width: 768px) {
@@ -120,7 +120,7 @@ strong {
 
 	#experience div {
 		height: 100%;
-		border-left: solid #aaa 1px;
+		border-left: solid #ADBDDE 1px;
 	}
 
 }
