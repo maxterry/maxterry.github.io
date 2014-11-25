@@ -1,6 +1,6 @@
 body {
 	margin: 0px; background: #EBF1FF;
-	font-family: verdana; font-size: small; color: #4F3030;
+	font-family: verdana; font-size: small; color: #444;
 }
 
 a {
@@ -13,7 +13,7 @@ abbr {
 }
 
 address {
-	background-color: #FCFFC6; vertical-align: top;
+	vertical-align: top;
 	padding: 14px; padding-bottom: 11px;
 	border-top: solid #ddd 1px; border-bottom: solid #ADBDDE 1px;
 	font-style: normal;
@@ -104,7 +104,7 @@ strong {
 }
 
 #skills, #experience {
-	margin-bottom: 20px; background: #ffe;
+	margin-bottom: 20px; background: #fff;
 	border-bottom: solid #ADBDDE 4px;
 }
 
