@@ -16,7 +16,7 @@ address {
 	vertical-align: top;
 	padding: 14px; padding-bottom: 11px;
 	border-top: solid #ddd 1px; border-bottom: solid #ADBDDE 1px;
-	font-style: normal;
+	font-style: normal; font-size: 1em;
 }
 
 address a {
@@ -35,16 +35,22 @@ address img {
 	background: white;
 }
 
-@media (min-width: 480px) {
-	address {
+@media (min-width: 500px) {
+
+  address {
 		text-align: center;
 	}
+
 	address a {
 		display: inline; margin-right: 4px; padding: 4px;
 	}
-	address img {
+
+  /*
+  address img {
 		margin-top: -2px; margin-left: -4px
 	}
+  */
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -60,13 +66,13 @@ h1, h2 {
 h1 {
 	padding-top: 6px;
 	border-top: solid #5F84D0 4px;
-	font-family: helvetica, sans-serif;
+	font-family: helvetica, sans-serif; font-size: 20pt;
 }
 
 h2 {
 	padding-bottom: 6px;
 	border-bottom: solid #ADBDDE 4px;
-	font-style: normal; font-size: x-small;
+	font-style: normal; font-size: 8pt;
 }
 
 h3 {
@@ -98,7 +104,7 @@ h6 {
 }
 
 strong {
-	padding: 1px; padding-left: 4px; padding-right: 4px; background: #eee;
+	margin-left: 4px; padding: 1px; padding-left: 4px; padding-right: 4px; background: #eee;
 	border-radius: 4px;
 	font-size: xx-small; color: #444;
 }
