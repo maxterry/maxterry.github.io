@@ -35,7 +35,7 @@ address img {
 	background: white;
 }
 
-@media (min-width: 460px) {
+@media (min-width: 480px) {
 	address {
 		text-align: center;
 	}
