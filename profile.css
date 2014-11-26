@@ -37,7 +37,7 @@ address img {
 
 @media (min-width: 500px) {
 
-  address {
+	address {
 		text-align: center;
 	}
 
@@ -45,11 +45,9 @@ address img {
 		display: inline; margin-right: 4px; padding: 4px;
 	}
 
-  /*
-  address img {
+	address img {
 		margin-top: -2px; margin-left: -4px
 	}
-  */
 
 }
 
