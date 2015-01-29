@@ -1,12 +1,25 @@
 # Max Terry
-Hypermedia Designer & Full-Stack Software Engineer
-U.S. / Maine / Westbrook
-
-https://github.com/1083
-consumer@email.com
-+1 (207) 286-6577
+Hypermedia Developer
+Westbrook, Maine, U.S.
 
 ## Experience
+
+### RE
+Technology Consultant (December 2014 – present)
+Remote
+* Building video survey software, and advising on hardware, for moving companies
+
+### Echo Transit
+Designer, Developer, & Producer (August 2014 – present)
+Maine
+* Side-project for improving transit UX
+* Built functioning map with Leaflet; designed innovative timetable
+* Discussing potential projects with developers and agencies in Maine
+
+### U.S. Detour
+Designer, Developer, & Producer (August 2014 – present)
+Westbrook & Kennebunkport, Maine
+* Curated collection high-quality, well-designed products, all made in the United States
 
 ### Moveline
 Software Engineer (August 2013 – July 2014)
@@ -120,5 +133,5 @@ Bash, Linux sysadmin, Unix network programming, AWS, Heroku.
 LAMP (2007 – 2014)
 PHP, Python scripting, web.py, Django, Pyramid, Flask, Postgres, PostGIS.
 
-Golang (2013 – present)
+Golang (2013 – 2014)
 Standard library, mux.
