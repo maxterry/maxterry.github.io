@@ -1,11 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 body {
-	margin: 0px; background: #EBF1FF;
-	font-family: verdana; font-size: small; color: #444;
+	margin: 0px; background: #2b2b2b;
+	font-family: 'raleway', sans-serif; font-size: small; color: #444;
 }
 
 a {
-	text-decoration: none; color: #3F6DCD;
-	border-bottom: solid #3F6DCD 1px;
+	text-decoration: none; color: #444;
+	border-bottom: solid #444 1px;
 }
 
 abbr {
@@ -14,19 +16,21 @@ abbr {
 
 address {
 	vertical-align: top;
-	padding: 14px; padding-bottom: 11px;
-	border-top: solid #ddd 1px; border-bottom: solid #ADBDDE 1px;
-	font-style: normal; font-size: 1em;
+	padding: 0px; padding-bottom: 11px; background: #212121;
+	border-top: solid #444 1px;
+	font-style: normal; font-size: 1.3em;
 }
 
 address a {
-	display: block; width: 100%; margin: 2px; background: white;
-	border: solid #6692EE 1px; border-radius: 4px;
+	display: block; width: 100%;
+	margin: -1px; padding: 10px; background: #222;
+	border: solid #444 1px;
+	color: #888;
 }
 
 address a:hover {
-	background: #6692EE;
-	color: #f5f5f5 !important;
+	background: #444;
+	color: #fff !important;
 }
 
 address img {
@@ -35,14 +39,16 @@ address img {
 	background: white;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
 
 	address {
+		padding: 30px;
 		text-align: center;
 	}
 
 	address a {
-		display: inline; margin-right: 4px; padding: 4px;
+		display: inline; margin-right: 4px;
+		border-radius: 4px;
 	}
 
 	address img {
@@ -57,35 +63,37 @@ h1, h2, h3, h4, h5 {
 
 h1, h2 {
 	float: center;
-	background-color: #6692EE;
-	text-align: center; color: #f5f5f5;
+	background-color: #444;
+	text-align: center;
 }
 
 h1 {
-	padding-top: 6px;
-	border-top: solid #5F84D0 4px;
-	font-family: helvetica, sans-serif; font-size: 20pt;
+	background: #2b2b2b;
+	padding-top: 20px; padding-bottom: 20px;
+	font-size: 2.5em; color: #fff;
 }
 
 h2 {
-	padding-bottom: 6px;
-	border-bottom: solid #ADBDDE 4px;
-	font-style: normal; font-size: 8pt;
+	padding-bottom: 25px; background: #2b2b2b;
+	font-style: normal; font-size: 1.4em; color: #aaa;
 }
 
 h3 {
-	padding: 10px;
-	text-align: center; font-family: helvetica, sans-serif; font-style: italic; font-size: x-large;
+	padding: 20px; background: #212121;
+	border-bottom: solid 1px #333;
+	text-align: center;
+	font-size: 2em; color: #fff;
 }
 
 h4 {
-	padding: 4px; background: #EBF1FF;
-	border-bottom: solid #D1DCF4 1px;
-	text-align: center; color: #444;
+	padding: 10px; padding-left: 22px; background: #222;
+	border-bottom: solid 4px #aaa;
+	font-size: 1.5em; color: #fff;
 }
 
 h4 a {
 	border-bottom: none;
+	color: #fff;
 }
 
 h5, h6, p {
@@ -93,23 +101,27 @@ h5, h6, p {
 }
 
 h5 {
-	padding-top: 8px;
+	padding-top: 10px;
+	font-size: 1.4em;
 }
 
 h6 {
 	margin: 0px;
-	font-weight: normal;
+	font-weight: normal; font-size: 1.2em;
+}
+
+p, ul {
+	font-size: 1.3em;
 }
 
 strong {
-	margin-left: 4px; padding: 1px; padding-left: 4px; padding-right: 4px; background: #eee;
+	margin-left: 4px; padding: 2px; padding-left: 6px; padding-right: 6px; background: #ddd;
 	border-radius: 4px;
-	font-size: xx-small; color: #444;
+	font-size: 1em; color: #444;
 }
 
 #skills, #experience {
-	margin-bottom: 20px; background: #fff;
-	border-bottom: solid #ADBDDE 4px;
+	margin-bottom: 30px; padding-bottom: 20px; background: #eee;
 }
 
 @media (min-width: 768px) {
@@ -124,7 +136,7 @@ strong {
 
 	#experience div {
 		height: 100%;
-		border-left: solid #ADBDDE 1px;
+		border-left: solid 1px #333;
 	}
 
 }
