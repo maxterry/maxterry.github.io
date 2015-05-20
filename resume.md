@@ -1,13 +1,13 @@
 # Max Terry
-Hypermedia Developer
+Full-Stack Software Engineer
 Westbrook, Maine, U.S.
 
 ## Experience
 
-### RE
-Technology Consultant (December 2014 – present)
+### Resurvey
+Contract Software Engineer (February 2015 – present)
 Remote
-* Building video survey software, and advising on hardware, for moving companies
+* Building video collaboration software for home services companies
 
 ### Echo Transit
 Designer, Developer, & Producer (August 2014 – present)
@@ -24,7 +24,7 @@ Westbrook & Kennebunkport, Maine
 ### Moveline
 Software Engineer (August 2013 – July 2014)
 Remote & Las Vegas, Nevada
-* Full-stack, mainly MEAN + CoffeeScript
+* Full-stack, mainly MEAN (Mongo Express AngularJS NodeJS) + CoffeeScript
 * Added location-related features to apps and API
 * Interfaced with mileage/routing software, using Go, Python, and Expect
 * Maintained and extended non-trivial Go project
@@ -35,7 +35,7 @@ Remote & Las Vegas, Nevada
 ### HDScores
 Interim CTO (April – August 2013)
 Remote
-* Built browser-based web scraper and fine-grained querying interface
+* Built browser-based web scraper and fine-grained querying interface, using jQuery + HTML/CSS/JS
 * Aggregated >10k health inspection records across the U.S. and Canada
 * Extracted targeted leads for pest control operators and commercial cleaners
 * Integrated with Parse for storage and querying, Stripe for payment processing
@@ -46,7 +46,7 @@ Remote & Portland, Maine
 * As engineer #1, established dev environment and process for near-realtime 
 asset tracking software for transport industry
 * Worked with CIO to grow and collaborate closely with strong engineering team, 
-handing off most initial front-end (OpenLayers + ExtJS), sysadmin (Debian + 
+handing off most initial front-end (jQuery + OpenLayers + ExtJS), sysadmin (Debian + 
 Fabric), and DBA (Postgres + PostGIS) duties to dedicated hires
 * Built robust hypermedia API on top of the Pyramid Python framework
 * Contributed to delivery of pilot projects for an aerospace firm and 2 (of the 
@@ -56,6 +56,7 @@ rental company
 ### Griffith Technology Solutions
 IT consultant (2011)
 Southern Maine
+* Built websites for clients, using HTML, CSS, JS, jQuery, and PHP
 * Maintained computer hardware and software for a handful of hotels, 
 restaurants, bars, and markets
 * Serviced and upgraded dozens of Windows machines
