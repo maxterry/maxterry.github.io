@@ -138,9 +138,9 @@ strong {
 		float: left; width: 50%;
 	}
 
-	#skills div {
+	#experience div {
 		height: 100%;
-		border-left: solid 1px #333;
+		border-right: solid 1px #333;
 	}
 
 }
