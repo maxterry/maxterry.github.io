@@ -1,0 +1,89 @@
+body {
+	background: red;
+}
+
+p.social-wide,
+p.social-narrow,
+ul,
+h1,
+h2,
+h4 img,
+.clients,
+.clients2,
+footer {
+	display: none;
+}
+
+h3 {
+	border-bottom-color: #eee;
+}
+
+h4 {
+	border-top-color: #f8f8f8;
+	border-bottom-color: #eee;
+}
+
+.print { display: inline; }
+
+.process { display: block; }
+
+a { border: none; }
+
+em {
+	color: #888;
+	background: #fff;
+	border: solid #bbb 1px !important;
+	-webkit-print-color-adjust: exact;
+}
+
+em.time {
+	background: #fafafa; color: #aaa;
+}
+
+em.industry, em.tech, em.location {
+	background: #fff; color: #888;
+	border: solid #bbb 1px !important;
+}
+
+em i {
+	color: #888;
+}
+
+p.tags, p.skill-tags {
+
+}
+
+div.print {
+	padding-left: 20px;
+	font-size: 2em;
+	margin-top: -20px; margin-left: -20px; margin-right: -20px;
+	padding-top: 5px; padding-bottom: 5px;
+	background: #fff;
+	font-size: 2.5em; color: #5e6c7f !important;
+	font-weight: bold;
+	border-bottom: solid #fafafa 2px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+div.print p {
+	font-size: .6em;
+	float: right !important;
+	text-align: right !important;
+	width: 70%;
+	color: #9da7b5;
+}
+
+#skills {
+	float: left; width: 50%;
+}
+
+#experience {
+	float: left; width: 50%;
+}
+
+#experience div {
+	height: 100%;
+	border-right: solid 10px #fafafa;
+}
