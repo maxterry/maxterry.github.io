@@ -288,7 +288,7 @@ p.social-narrow a {
 
 p.social-narrow a i {
 	padding-left: 120px; padding-right: 10px;
-	margin-left: 10px; margin-right: 10px;
+	margin-left: 5px; margin-right: 5px;
 }
 
 p.social-narrow .fa {
@@ -331,6 +331,7 @@ p.social-narrow .fa {
 
 	p.social-narrow {
 		display: block;
+		padding-left: 0px;
 	}
 
 }
